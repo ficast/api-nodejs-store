@@ -2,9 +2,10 @@
   "name": "api-store",
   "version": "1.0.0",
   "description": "",
-  "main": "bin/server.js",
+  "main": "bin/server.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/server.ts"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +16,8 @@
     "express": "^4.17.1",
     "http": "0.0.1-security",
     "typescript": "^4.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
